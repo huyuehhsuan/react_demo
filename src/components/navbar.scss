@@ -1,0 +1,35 @@
+*{
+  // outline: 1px solid red;
+}
+.navbar{
+  .container{
+    padding: 0 50px;
+    .line{
+      padding: 15px 0;
+      display: flex;
+      justify-content: space-between;
+    }
+    .top_line{
+      .logo{
+        width: 160px;
+        height: 40px;
+        background-color: orange;
+      }
+      .items_list{
+        display: flex;
+        align-items: center;
+        .item{
+          width: 80px;
+          margin: 0 10px;
+          text-align: center;
+          padding: 4px 6px;
+          border: 1px transparent solid;
+          &:hover{
+            border: 1px orange solid;
+            border-radius: 10px;
+          }
+        }
+      }
+    }
+  }
+}
